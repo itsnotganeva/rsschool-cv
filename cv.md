@@ -33,6 +33,22 @@ Skills:
 * Version Control System:
     * Git
 
+## Example of code
+
+```
+function removeEveryOther(arr){
+
+for( i = arr.length - 1; i >= 0; i--)
+{
+  if( i % 2 === 1)
+  {
+    arr.splice(i,1);
+  } 
+}
+  return arr;
+}
+```
+
 ## English level
 
 * Pre-intermediate (A2)
